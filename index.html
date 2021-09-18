@@ -5,65 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web block</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
-    <header>
-    <img src="img/logo.png" alt="">
-    <ul>
-        <li>_посты</li>
-        <li>_категории</li>
-        <li>_полезное</li>
-        <li>_обо мне</li>
+    <header class="header" >
+    <a href="*" class="header__logo"><img src="img/logo.png" alt="logo" ></a> 
+
+    <ul class="header-nav">
+        <li class="header-nav__item" > <a href="" class="header-nav__link" >_посты</a> </li>
+        <li class="header-nav__item" > <a href="" class="header-nav__link" >_категории</a> </li>
+        <li class="header-nav__item" > <a href="" class="header-nav__link" >_полезное</a> </li>
+        <li class="header-nav__item" > <a href="" class="header-nav__link" >_обо мне</a> </li>
     </ul>
 
-    <ul>
-        <a href="1"><img src="img/Vector.png" alt=""></a>
-        <a href="2"><img src="img/Vector (1).png" alt=""></a>
-        <a href="3"><img src="img/Vector (2).png" alt=""></a>
-        <a href="4"><img src="img/Vector (3).png" alt=""></a>
+    <ul class="header-social" >
+        <li class="header-social__item"><a href="1" class="header-social__link"><img src="img/Vector.png" alt="vk" class="header-social__img"></a></li>
+        <li class="header-social__item"><a href="2" class="header-social__link"><img src="img/Vector(1).png" alt="inst" class="header-social__img"></a></li>
+        <li class="header-social__item"><a href="3" class="header-social__link"><img src="img/Vector(2).png" alt="twitter" class="header-social__img"></a></li>
+        <li class="header-social__item"><a href="4" class="header-social__link"><img src="img/Vector(3).png" alt="youtube" class="header-social__img"></a></li>
     </ul>
 
     </header>
-    <main>
-        <ul>
-            <li>Привет!</li>
-            <li>Меня зовут Николай.</li>
-            <li>Я верстальщик, и начинающий фронтенд-разработчик.</li>
-            <li>Это мой блог, где я буду делиться своими мыслями относительно веб-разработки</li>
+    
+    <main class="main">
+        <ul class="main-about" >
+            <li class="main-about__item" > <p class="main-about__text" >Привет!</p> </li>
+            <li class="main-about__item" > <p class="main-about__text" >Меня зовут Николай.</p> </li>
+            <li class="main-about__item" > <p class="main-about__text" >Я верстальщик, и начинающий фронтенд-разработчик.</p> </li>
+            <li class="main-about__item" > <p class="main-about__text" >Это мой блог, где я буду делиться своими мыслями относительно веб-разработки</p></li>
         </ul>
-        <img src="img/image1.svg" alt="">
+        <img src="img/image1.svg" alt="nicolay" class="main-img" >
 
-        <h1>_Новые посты</h1>
+            <h1 class="main-title" >_Новые посты</h1>
 
-        <h2>Начинаю изучать JavaScript</h2>
-        <p>11/09/2021</p>
-        <p>Задача организации, в особенности же консультация с широким активом позволяет выполнять важные задания по разработке форм развития. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия.</p>
-        <img src="img/image2.svg" alt="">
-        <p>_1</p>
+        <ul class="main-posts" >
 
-        <h2>Время практики</h2>
-        <p>10/09/2021</p>
-        <p>Задача организации, в особенности же консультация с широким активом позволяет выполнять важные задания по разработке форм развития. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия.</p>
-        <img src="img/image3.svg" alt="">
-        <p>_2</p>
+            <li class="main-posts__item" ><h2 class="main-posts__title" >Начинаю изучать JavaScript</h2>
+        <p class="main-posts__date" >11/09/2021</p>
+        <p class="main-posts__text" >Задача организации, в особенности же консультация с широким активом позволяет выполнять важные задания по разработке форм развития. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия.</p>
+        <img src="img/image2.svg" alt="JS" class="main-posts__img" >
+        <p class="main-posts__number" >_1</p></li>
 
-        <h2>Время практики</h2>
-        <p>20/08/2021</p>
-        <p>Задача организации, в особенности же консультация с широким активом позволяет выполнять важные задания по разработке форм развития. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия.</p>
-        <img src="img/image4.svg" alt="">
-        <p>_3</p>
+            <li class="main-posts__item" ><h2 class="main-posts__title" >Время практики</h2>
+        <p class="main-posts__date" >10/09/2021</p>
+        <p class="main-posts__text" >Задача организации, в особенности же консультация с широким активом позволяет выполнять важные задания по разработке форм развития. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия.</p>
+        <img src="img/image3.svg" alt="beach" class="main-posts__img" >
+        <p class="main-posts__number" >_2</p></li>
 
-        <button >Смотреть остальные...</button>
+            <li class="main-posts__item" ><h2 class="main-posts__title" >Время практики</h2>
+        <p class="main-posts__date" >20/08/2021</p>
+        <p class="main-posts__text" >Задача организации, в особенности же консультация с широким активом позволяет выполнять важные задания по разработке форм развития. Повседневная практика показывает, что новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия.</p>
+        <img src="img/image4.svg" alt="netbook" class="main-posts__img" >
+        <p class="main-posts__number" >_3</p></li>
+        </ul>
+
+        <a href="*" class="main-other" >Смотеть остальные...</a>
 
 
     </main>
-    <footer>
-        <img src="img/Vector.svg" alt="">
-        <p>_web.blog 2021</p>
+    <footer class="footer" >
+        <p class="footer-copy" > &copy; _web.blog 2021</p>
     </footer>
 </body>
 </html>
